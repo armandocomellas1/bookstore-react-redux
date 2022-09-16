@@ -27,7 +27,7 @@ function App() {
     <BrowserRouter>
       <Navegation />
       <Routes>
-        <Route path="/books" element={<Books title="The Hunger Games" author="Suzanne Collins" />} />
+        <Route path="/*" element={<Books title="The Hunger Games" author="Suzanne Collins" />} />
         <Route path="/categories" element={<Categories />} />
       </Routes>
     </BrowserRouter>
